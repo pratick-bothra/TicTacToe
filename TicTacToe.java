@@ -273,7 +273,7 @@ public class TicTacToe extends JFrame implements ActionListener {
             if (player1Turn) {
                 clickedButton.setText("X");
                 clickedButton.setForeground(new Color(0, 0, 255)); // Blue for X
-                clickedButton.setEnabled(false);
+                //clickedButton.setEnabled(false);
                 playSound("click.wav");
 
                 if (checkWin("X")) {
@@ -304,7 +304,7 @@ public class TicTacToe extends JFrame implements ActionListener {
             // Player 2 turn
             clickedButton.setText("O");
             clickedButton.setForeground(new Color(255, 0, 0)); // Red for O
-            clickedButton.setEnabled(false);
+            //clickedButton.setEnabled(false);
             playSound("click.wav");
 
             if (checkWin("O")) {
